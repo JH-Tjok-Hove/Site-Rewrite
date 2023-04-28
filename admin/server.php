@@ -59,8 +59,6 @@ if (isset($_POST['reg_user'])) {
   }
 }
 
-//
-
 // LOGIN USER
 if (isset($_POST['login_user'])) {
     $email = mysqli_real_escape_string($conn, $_POST['email']);
@@ -90,6 +88,31 @@ if (isset($_POST['login_user'])) {
   //RESET PASSWORD
   if (isset($_POST['reset_password'])) {
   
+  }
+
+  //ADD USER
+  if (isset($_POST['add_user'])) {
+
+  }
+
+  //EDIT USER
+  if (isset($_POST['edit_user'])) {
+
+  }
+
+  //REMOVE USER
+  if (isset($_POST['remove_user'])) {
+
+  }
+
+  //ADD GROUP
+  if (isset($_POST['add_group'])) {
+
+  }
+
+  //REMOVE GROUP
+  if (isset($_POST['remove_group'])) {
+
   }
   
   ?>
